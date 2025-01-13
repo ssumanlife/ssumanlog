@@ -1,0 +1,16 @@
+@import './variables';
+@import './reset';
+
+body {
+  font-family: $font-family-base;
+  letter-spacing: -0.02em;
+  line-height: 132%;
+  overflow-x: hidden;
+}
+
+input,
+textarea {
+  &::placeholder {
+    opacity: 1; /* Firefox */
+  }
+}
