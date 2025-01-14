@@ -18,7 +18,6 @@ module.exports = {
     'plugin:prettier/recommended',
     'next/core-web-vitals',
     'next/typescript',
-    'plugin:storybook/recommended',
   ],
   plugins: ['@typescript-eslint', 'react', 'jsx-a11y', 'import', 'prettier', 'filenames'],
   rules: {
